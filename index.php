@@ -14,6 +14,9 @@ require('config/db.php');
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="styles.css" />
 		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
 		<title>The APPLE Blog</title>
 	</head>
 	<body>
