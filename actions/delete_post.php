@@ -31,7 +31,5 @@ if($conn->error != '') {
 	header('Location:../?p=admin/list_posts');
 }
 
-
-
 // Close DB connection
 $conn->close();

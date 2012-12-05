@@ -14,6 +14,10 @@ nav img {
 }
 
 textarea {
-	width: 600px;
-	height: 400px;
+	width:600px;
+	height:400px;
+}
+
+div.controls input {
+	width:700px;
 }

@@ -34,6 +34,7 @@ require('../config/db.php');
 $conn = new mysqli('localhost',DB_USERNAME,DB_PASSWORD,DB_NAME);
 
 // Construct query
+$post_title = addslashes($post_title);
 $post_text = addslashes($post_text);
 $sql = "INSERT INTO posts (post_title,post_text) VALUES('$post_title','$post_text')";
 echo $sql;

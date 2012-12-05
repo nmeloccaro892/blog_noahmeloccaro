@@ -28,9 +28,8 @@ $results = $conn->query($sql);
 	<tr>
 		<td><?php echo $post['post_title'] ?></td>
 		<td><?php echo $post['post_datepublished'] ?></td>
-		<td><?php echo $post['post_text'] ?></td>
 		<td class="actions">
-			<a class="btn btn-warning btn-mini" title="EDIT" href="./?p=form_editpost&amp;id=<?php echo $post['post_id']?>"><i class="icon-edit icon-white"></i></a>
+			<a class="btn btn-warning btn-mini" title="EDIT" href="./?p=admin/form_editpost&amp;id=<?php echo $post['post_id']?>"><i class="icon-edit icon-white"></i></a>
 			<a class="btn btn-danger btn-mini" title="DELETE" href="actions/delete_post.php?id=<?php echo $post['post_id']?>"><i class="icon-trash icon-white"></i></a>
 		</td>
 	</tr>
