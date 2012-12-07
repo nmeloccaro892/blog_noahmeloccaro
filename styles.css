@@ -4,13 +4,13 @@ nav {
 
 nav img {
 	float:left;
-	height:20px;
+	height:25px;
 }
 
 #wrapper {
 	width:1200px;
 	margin:0px auto;
-	padding:10px;
+	padding:0px;
 }
 
 textarea {
@@ -24,12 +24,22 @@ div.controls input {
 
 h5 {
 	margin:0px 0px 0px 0px;
+	color:#252259;
 }
 
 h2 {
-	margin:50px 0px 0px 0px;
+	margin:10px 0px 0px 0px;
+	color:#08C;
 }
 
 p {
 	margin:15px 0px 0px 0px;
+}
+
+p {
+	color:#124A33;
+}]
+
+h3 {
+	line-height:15px;
 }
